@@ -8,3 +8,6 @@ canvas {
     max-width: 95%;
     height: auto;
 }
+#canvasDessin {
+    touch-action: none;
+}
