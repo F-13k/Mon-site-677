@@ -1,0 +1,10 @@
+body { font-family: sans-serif; text-align: center; background-color: #f4f4f4; padding-top: 50px; }
+.menu-btn { padding: 15px; margin: 10px; cursor: pointer; border-radius: 8px; border: none; background: #333; color: #fff; }
+canvas { border: 3px solid #333; background: white; display: block; margin: 10px auto; }
+.commandes { margin-top: 10px; }
+#resultatIA { font-weight: bold; font-size: 20px; }
+/* Rend le canvas réactif à la taille de l'écran mobile */
+canvas {
+    max-width: 95%;
+    height: auto;
+}

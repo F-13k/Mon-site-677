@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Site SIXX SEVENN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<body>
+    <h1>Bienvenue sur mon site SIXX SEVENN !</h1>
+    
+    <div id="menuPrincipal">
+        <button class="menu-btn" id="monBouton">Changer Couleur</button>
+        <button class="menu-btn" id="NumberAleatoire">Nombre</button>
+        <button class="menu-btn" id="motAleatoire">Mot</button>
+        <button class="menu-btn" id="BlagueAleatoire">Blague</button>
+        <button class="menu-btn" id="LancerDessin">Lancer le Dessin</button>
+    </div>
+
+    <div id="zoneJeu" style="display: none;">
+        <canvas id="canvasDessin" width="400" height="400"></canvas>
+        <div class="commandes">
+            <button id="btnEffacer">Effacer</button>
+            <input type="range" id="taillePinceau" min="1" max="50" value="10">
+            <input type="color" id="couleurPinceau">
+            <button id="btnFermer">Fermer</button>
+        </div>
+        <p id="resultatIA"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
